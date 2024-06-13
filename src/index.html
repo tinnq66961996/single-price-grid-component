@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./output.css" />
+        <style>
+            .overlay {
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+        </style>
+        <title>Frontend Mentor | Single Price Grid Component</title>
+    </head>
+    <body
+        class="flex flex-col justify-center items-center font-main bg-[#E6EFF5] h-screen w-screen px-[2.4rem]"
+    >
+        <div
+            class="container flex flex-col h-[72.2rem] bg-white desktop:w-[63.5rem] desktop:h-[47.5rem]"
+        >
+            <div
+                class="paragraph h-[27.7rem] flex flex-col p-[4rem] gap-[1rem] desktop:gap-0 desktop:h-full"
+            >
+                <h2
+                    class="text-[2rem] text-[#2AB3B1] font-bold desktop:text-[2.4rem]"
+                >
+                    Join our community
+                </h2>
+                <h3
+                    class="text-[#C0DF33] text-[1.5rem] font-bold desktop:text-[1.8rem]"
+                >
+                    30-day, hassle-free money back guarantee
+                </h3>
+                <p class="text-[#9AA7BE] text-[1.4rem] desktop:text-[1.6rem]">
+                    Gain access to our full library of tutorials along with
+                    expert code reviews. Perfect for any developers who are
+                    serious about honing their skills.
+                </p>
+            </div>
+            <div class="information flex flex-col desktop:flex-row">
+                <div
+                    class="subscription flex flex-col h-[22.8rem] w-full bg-[#2AB3B1] p-[3rem] desktop:w-1/2 desktop:h-full"
+                >
+                    <h3 class="text-[1.8rem] text-white font-bold">
+                        Monthly Subscription
+                    </h3>
+                    <div class="flex gap-[1rem] items-center">
+                        <p class="text-white text-[3.2rem] font-bold">$29</p>
+                        <span class="text-white opacity-50 text-[1.6rem]"
+                            >per month</span
+                        >
+                    </div>
+                    <p class="text-white text-[1.6rem]">
+                        Full access for less than $1 a day
+                    </p>
+                    <button
+                        class="w-[26.3rem] h-[4.8rem] bg-[#C0DF33] mt-[3rem] rounded-[5px] text-white font-bolds text-[1.6rem]"
+                    >
+                        Sign Up
+                    </button>
+                </div>
+                <div
+                    class="whyus flex flex-col bg-[#2AB3B1] p-[3rem] relative desktop:w-full"
+                >
+                    <div
+                        class="bg-white absolute opacity-[15.19%] overlay"
+                    ></div>
+                    <h3 class="text-[1.8rem] font-bold text-white">Why Us</h3>
+                    <div class="questions text-[1.4rem] text-white opacity-75">
+                        <p>Tutorials by industry experts</p>
+                        <p>Peer & expert code review</p>
+                        <p>Coding exercises</p>
+                        <p>Access to our GitHub repos</p>
+                        <p>Community forum</p>
+                        <p>Flashcard decks</p>
+                        <p>New videos every week</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
